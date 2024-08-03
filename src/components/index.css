@@ -1,0 +1,44 @@
+.img{
+background-size: cover;
+position:relative;
+}
+.memog1{
+    background-image: url("../components/assets/memoji1.png");
+}
+.memog2{
+    background-image: url("../components/assets/memoji2.avif")
+}
+.memog3{
+    background-image: url("../components/assets/memoji3.jpg");
+}
+.memog4{
+    background-image: url("../components/assets/memoji4.png");
+}
+.memog5{
+    background-image: url("../components/assets/memoji5.jpeg");
+}
+
+
+.imgg-2{
+display: none;
+z-index: 100;
+}
+
+.memog1:hover .memogi-pop1{
+    display: block;
+}
+.memog2:hover .memogi-pop2{
+    display: block;
+}
+
+.memog3:hover .memogi-pop3{
+    display: block;
+}
+.memog4:hover .memogi-pop4{
+    display: block;
+}
+
+.memog5:hover .memogi-pop5{
+    display: block;
+}
+
